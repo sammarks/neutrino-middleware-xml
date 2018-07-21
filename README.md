@@ -35,9 +35,9 @@ module.exports = {
 
 ## Features
 
-- Uses the [Webpack XML Template Plugin][wrapper-link] to generate XML files based on a template and passed data.
+- Uses the [Webpack XML Template Plugin][webpack-link] to generate XML files based on a template and passed data.
 - Options passed to this middleware are passed directly to the plugin. 
-    See [the plugin's documentation][wrapper-link] for more details.
+    See [the plugin's documentation][webpack-link] for more details.
 
 [header-image]: https://raw.githubusercontent.com/sammarks/art/master/neutrino-middleware-xml/header.jpg
 [circleci-image]: https://img.shields.io/circleci/project/github/sammarks/neutrino-middleware-xml.svg
