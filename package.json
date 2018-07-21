@@ -1,0 +1,39 @@
+{
+  "name": "neutrino-middleware-xml",
+  "version": "0.0.1",
+  "description": "Neutrino middleware for creating XML files based on templates.",
+  "main": "index.js",
+  "scripts": {
+    "release": "standard-version -r",
+    "test": "ava --fail-fast test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sammarks/neutrino-middleware-xml.git"
+  },
+  "keywords": [
+    "neutrino-middleware",
+    "neutrino",
+    "middleware",
+    "webpack",
+    "xml"
+  ],
+  "author": "Sam Marks <sam@sammarks.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sammarks/neutrino-middleware-xml/issues"
+  },
+  "homepage": "https://github.com/sammarks/neutrino-middleware-xml#readme",
+  "peerDependencies": {
+    "neutrino": "^8.0.0"
+  },
+  "dependencies": {
+    "xml-webpack-plugin": "0.0.2"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "neutrino": "^8.3.0",
+    "standard-version": "^4.4.0",
+    "tap-xunit": "^2.3.0"
+  }
+}
